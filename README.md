@@ -1,5 +1,10 @@
 # perfect-maze-generator
-<h5>The algorithm to generate the maze is in the file public/maze.js</h5>
+
+<h2>If you want to test it, head over here: </h2> https://infinite-beach-05448.herokuapp.com/
+
+<div>
+  <h5>The algorithm to generate the maze is in the file public/maze.js</h5>
+</div>
 
 <div>
   <h3>The maze is generated using the iterative implementation. it is described with this following routine : </h3>
