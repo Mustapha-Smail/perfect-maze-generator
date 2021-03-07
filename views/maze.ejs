@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs'); -%>
+
+    <body>
+        <div id="maze-grid" class="container">
+            <!-- The Maze will be displayed here -->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/maze.js"></script>
+        <script>
+            $(document).ready(function () {
+                var mazeWidth = <%= mazeWidth %>;
+                var mazeHeight = <%= mazeHeight %>;
+                $('table').width(mazeWidth);
+                $('table').height(mazeHeight);
+            });
+        </script>
+<%- include('partials/footer'); -%>

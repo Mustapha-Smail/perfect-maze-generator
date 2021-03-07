@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs'); -%>
+    <div class="text-center box">
+        <form action="/" method="POST">
+            <h1 class="h1 mb-3 font-weight-normal">Perfect Maze Generator</h1>
+
+            <input class="form-control form-control-lg" type="number" name="mazeWidth" id="mazeWidth"
+                placeholder="Maze Width in 'px'" required autofocus>
+            <br>
+            <input class="form-control form-control-lg" type="number" name="mazeHeight" id="mazeHeight"
+                placeholder="Maze Height in 'px'" required>
+            <br>
+            <button id="submitButton" class="btn btn-lg btn-primary btn-block" type="submit">Generate</button>
+        </form>
+    </div>
+<%- include('partials/footer'); -%>
