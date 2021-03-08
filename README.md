@@ -1,6 +1,7 @@
 # perfect-maze-generator
 
-<h2>If you want to test it, head over here: </h2> https://infinite-beach-05448.herokuapp.com/
+<h2>If you want to test it, head over here: </h2> 
+<a href="https://infinite-beach-05448.herokuapp.com/" target="_blank">https://infinite-beach-05448.herokuapp.com/</a>
 
 <div>
   <h5>The algorithm to generate the maze is in the file public/maze.js</h5>
