@@ -3,8 +3,11 @@
 <h2>If you want to test it, head over here: </h2> 
 <a href="https://infinite-beach-05448.herokuapp.com/" target="_blank">https://infinite-beach-05448.herokuapp.com/</a>
 
+<h3> A better version where you can decide of the Cols and Rows of the maze is right below: </h3>
+ <a href="https://young-scrubland-05043.herokuapp.com/" target="_blank">https://young-scrubland-05043.herokuapp.com/</a>
+
 <div>
-  <h5>The algorithm to generate the maze is in the file public/maze.js</h5>
+  <h2>The algorithm to generate the maze is in the file public/maze.js</h2>
 </div>
 
 <div>
