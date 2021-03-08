@@ -1,15 +1,18 @@
 <%- include('partials/header.ejs'); -%>
-    <div class="text-center box">
-        <form action="/" method="POST">
-            <h1 class="h1 mb-3 font-weight-normal">Perfect Maze Generator</h1>
-
-            <input class="form-control form-control-lg" type="number" name="mazeWidth" id="mazeWidth"
-                placeholder="Maze Width in 'px'" required autofocus>
-            <br>
-            <input class="form-control form-control-lg" type="number" name="mazeHeight" id="mazeHeight"
-                placeholder="Maze Height in 'px'" required>
-            <br>
-            <button id="submitButton" class="btn btn-lg btn-primary btn-block" type="submit">Generate</button>
-        </form>
+    <div class="container text-center">
+        <main class="form-maze">
+            <form action="/" method="POST">
+                <h1 class="h3 mb-3 fw-normal">Perfect Maze Generator</h1>
+                <label for="mazeWidth" class="visually-hidden">Maze Width</label>
+                <input type="number" name="mazeWidth" id="mazeWidth" class="form-control"
+                    placeholder="Maze Width in 'px'" required autofocus>
+                <label for="mazeHeight" class="visually-hidden">Maze Height</label>
+                <input type="number" name="mazeHeight" id="mazeHeight" class="form-control"
+                    placeholder="Maze Height in 'px'" required>
+                <br>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Generate</button>
+                <p class="mt-5 mb-3 text-muted">&copy; Mustapha SMAIL - 2021</p>
+            </form>
+        </main>
     </div>
 <%- include('partials/footer'); -%>
