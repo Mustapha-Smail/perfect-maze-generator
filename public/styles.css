@@ -3,10 +3,7 @@ body{
   padding: 20px;
 }
 
-table {
-  width: 30rem;
-  height: 30rem;
-} td {
+td {
   border-collapse: collapse;
 }
 
